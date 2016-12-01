@@ -1,0 +1,46 @@
+p{
+  margin: 2px;
+}
+.personalWindow{
+  margin: 4px;
+  padding: 5px;
+  width: 50.2%;
+}
+.chat{
+  overflow: scroll;
+  background: lightgrey;
+  height: 200px;
+  width: 300px;
+  border: solid black 1px;
+  /*padding: 5px;*/
+
+}
+.person1{
+  background-color: cornsilk;
+}
+.person2{
+  background-color: lightblue;
+}
+span{
+  border-radius: 3px;
+  display: block;
+  padding: 3px;
+  margin: 5px;
+}
+#text1 .person1{
+  clear: both;
+  float: right;
+}
+#text1 .person2{
+  float: left;
+  clear: both;
+}
+
+#text2 .person1{
+  float: left;
+  clear: both;
+}
+#text2 .person2{
+  float: right;
+  clear: both;
+}
