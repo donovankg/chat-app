@@ -1,10 +1,17 @@
 p{
   margin: 2px;
 }
+.chatWindows{
+  display: flex;
+}
+h1{
+  text-align: center;
+  background: cornsilk;
+}
 body{
-display: flex;
 }
 .personalWindow{
+
   flex-grow: 1;
   margin: auto;
   border: 1px solid black;
@@ -51,7 +58,7 @@ span{
   clear: both;
 }
 @media screen and (max-width: 680px) {
-  body{
+  .chatWindows{
     display: inline;
   }
 
