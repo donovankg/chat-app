@@ -1,16 +1,22 @@
 p{
   margin: 2px;
 }
-.personalWindow{
-  margin: 4px;
-  padding: 5px;
-  width: 50.2%;
+body{
+display: flex;
 }
+.personalWindow{
+  flex-grow: 1;
+  margin: auto;
+  border: 1px solid black;
+  padding: 25px;
+  /*width: 40%;*/
+}
+
 .chat{
   overflow: scroll;
-  background: lightgrey;
-  height: 200px;
-  width: 300px;
+  background: lightblue;
+  height: 300px;
+  width: 100%;
   border: solid black 1px;
   /*padding: 5px;*/
 
@@ -19,7 +25,7 @@ p{
   background-color: cornsilk;
 }
 .person2{
-  background-color: lightblue;
+  background-color: teal;
 }
 span{
   border-radius: 3px;
@@ -43,4 +49,10 @@ span{
 #text2 .person2{
   float: right;
   clear: both;
+}
+@media screen and (max-width: 680px) {
+  body{
+    display: inline;
+  }
+
 }
